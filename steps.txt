@@ -1,0 +1,4 @@
+1. Run the initial setup outside of docker to install the prerequisites
+2. run steps 1 and 2 in init-containerization.sh
+3. inside of nvidia docker container run steps 3-12 (because we need to give some inputs)
+4. run step 13 to ssh into the container with sudo permissions
