@@ -4,6 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    runtime: nvidia
     ports: 
       - 2222:22
     volumes:
